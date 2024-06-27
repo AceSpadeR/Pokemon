@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="StarterPokemon.png" />
+    <None Remove="Windows\Bulb.png" />
+    <None Remove="Windows\Pikachu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="StarterPokemon.png" />
+    <Resource Include="Windows\Bulb.png" />
+    <Resource Include="Windows\Pikachu.png" />
+  </ItemGroup>
+
+</Project>
